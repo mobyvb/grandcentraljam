@@ -29,7 +29,6 @@ router.post('/', function(req, res, next) {
 });
 
 router.get('/:username', function(req, res, next) {
-  console.log('getting ' + req.params.username);
   User.findOne({username: req.params.username}, function(err, user) {
     if (err) {
       res.json(err);

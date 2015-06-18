@@ -4,15 +4,17 @@
   "authors": [
     "Maximillian von Briesen <mobyvb@gmail.com>"
   ],
-  "license": "MIT",
+  "license": "GPL",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "public/components"
   ],
   "dependencies": {
-    "angular": "~1.4.0"
-  }
+    "react": "~0.13.3"
+  },
+  "homepage": "https://github.com/mobyvb/grandcentraljam",
+  "private": true
 }
